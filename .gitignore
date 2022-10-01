@@ -1,5 +1,5 @@
 .env
-.vale
+.fxtdr
 node_modules
-vale.log
+fxtdr.log
 error.log

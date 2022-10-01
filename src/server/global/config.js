@@ -20,7 +20,7 @@ const CONFIGURATION = {
     OANDA_API_TIMEZONE: process.env.OANDA_API_TIMEZONE || 'America/New_York',
     OANDA_ACCOUNT_ID: process.env.OANDA_ACCOUNT_ID,
     ENABLE_SYSTEM_COMMANDS:  toBoolean(process.env.ENABLE_SYSTEM_COMMANDS),
-    LOG_FILE_NAME: process.env.LOG_FILE_NAME || 'vale.log',
+    LOG_FILE_NAME: process.env.LOG_FILE_NAME || 'fxtdr.log',
     WRITE_TO_LOG_FILE:  toBoolean(process.env.WRITE_TO_LOG_FILE),
     LOG_FILE_LEVEL: process.env.LOG_FILE_LEVEL || info,
     BUS_BUFFER_SIZE: process.env.BUS_BUFFER_SIZE || 1,

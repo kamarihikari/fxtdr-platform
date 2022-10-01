@@ -3,11 +3,11 @@ require('dotenv').config();
 require('./global');
 
 
-const { PORT, ENABLE_SYSTEM_COMMANDS } = v.config
+const { PORT, ENABLE_SYSTEM_COMMANDS } = fxtdr.config
 const express = require('express');
 const bodyParser = require('body-parser');
 const http = require('http');
-const log = v.createLogContext('server');
+const log = fxtdr.createLogContext('server');
 
 const app = express();
 

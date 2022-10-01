@@ -3,8 +3,8 @@
  */
 
 const ws = require('ws');
-const log = v.createLogContext('server/socket');
-const { ENABLE_SYSTEM_COMMANDS } = v.config;
+const log = fxtdr.createLogContext('server/socket');
+const { ENABLE_SYSTEM_COMMANDS } = fxtdr.config;
 let wss;
 
 async function execute(path, args) {

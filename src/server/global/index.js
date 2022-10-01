@@ -67,7 +67,7 @@ if (require('./config').DEVELOPER_MODE) {
 
 
 
-const vale = {
+const fxtdr = {
   ROOT_DIR: process.cwd(),
   bus: (require('./bus')),
   config: require('./config'),
@@ -77,4 +77,4 @@ const vale = {
 };
 
 
-global.v = vale;
+global.fxtdr = fxtdr;
