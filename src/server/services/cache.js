@@ -9,7 +9,7 @@ const moment = require('moment');
 const { createLogContext } = require('../global/log');
 
 const log = createLogContext('services/cache');
-const { REFRESH_CACHE_AFTER_EXPIRATION, CACHE_EXPIRE_INTERVAL_MINUTES, ROOT_DIRECTORY } = v.config
+const { REFRESH_CACHE_AFTER_EXPIRATION, CACHE_EXPIRE_INTERVAL_MINUTES, ROOT_DIRECTORY } = fxtdr.config
 const CACHE_DIRECTORY = `${ROOT_DIRECTORY}/.fxtdr`;
 const CACHE_FILE = `${CACHE_DIRECTORY}/cache.json`;
  

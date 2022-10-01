@@ -114,7 +114,7 @@ class TradingZone extends EventEmitter {
               this.open = candle.open;
               this.startTime = getSessionStartTime(candle);
               this.endTime = getSessionEndTime(candle);
-              this.lastCandle = v.bus.findObjectOnDate(this.instrument, moment(this.endTime).format('x'));
+              this.lastCandle = fxtdr.bus.findObjectOnDate(this.instrument, moment(this.endTime).format('x'));
               this.timestamp = parseInt(getSessionStartTime(candle).format('x'));
 
               if (this.lastCandle) this.close = this.lastCandle.open;

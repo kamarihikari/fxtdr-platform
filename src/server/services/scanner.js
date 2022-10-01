@@ -3,7 +3,7 @@
  */
 
 const { getCandlesticks } = require('services/api');
-const log = v.createLogContext('services/scanner');
+const log = fxtdr.createLogContext('services/scanner');
 const Zone = require('classes/Zone');
 const { sortBy, concat, uniqBy } = require('lodash');
 

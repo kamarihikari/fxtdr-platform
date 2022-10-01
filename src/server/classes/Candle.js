@@ -28,7 +28,7 @@ class Candle extends EventEmitter {
     }
 
     register() {
-        return v.bus.registerObject(this);
+        return fxtdr.bus.registerObject(this);
     }
 
     getSessionNames() {

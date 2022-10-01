@@ -14,7 +14,7 @@ const chalk = require('chalk');
 /**
  * Config dumper
  */
-router.get('/config', (req, res) => res.json(v.config));
+router.get('/config', (req, res) => res.json(fxtdr.config));
 
 /**
  * Function Caller

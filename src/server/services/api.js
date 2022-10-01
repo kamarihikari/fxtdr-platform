@@ -7,10 +7,10 @@ const Candle = require('classes/Candle');
 const axios = require('axios');
 const moment = require('moment');
 const { to } = require('await-to-js');
-const { OANDA_API_URL, OANDA_API_TOKEN, OANDA_ACCOUNT_ID } = v.config;
+const { OANDA_API_URL, OANDA_API_TOKEN, OANDA_ACCOUNT_ID } = fxtdr.config;
 const { read, write } = require('services/cache');
 
-const log = v.createLogContext('services/api');
+const log = fxtdr.createLogContext('services/api');
 
 const getCandleStartTime = () => {
   const dayOfWeek = moment().day();
