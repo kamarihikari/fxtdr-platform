@@ -1,0 +1,5 @@
+.env
+.vale
+node_modules
+vale.log
+error.log
